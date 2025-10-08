@@ -1,0 +1,12 @@
+name: Greet User
+
+on: push  # runs on every push to any branch
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet user
+        run: echo "Hello world"
+      - name: Bye user
+        run: echo "Bye"
