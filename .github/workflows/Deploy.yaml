@@ -12,12 +12,12 @@ jobs:
           uses: actions/setup-node@v4
           with:
             node-version: 22
-        -name: print node version
-         run: node -v
-        -name: Install dependancies
-         run: npm install
-        -name: Run test
-         run: npm run test
-             
+        - name: print node version
+          run: node -v
+        - name: Install dependancies
+          run: npm install
+        - name: Run test
+          run: npm run test
+
 
     
